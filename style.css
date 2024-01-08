@@ -31,6 +31,7 @@
 .navbar h3{
     color: #fff;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .nav-items{
@@ -50,8 +51,7 @@
 }
 
 .loginbtn{
-    width: 120px;
-    height: 50px;
+    padding: 15px 20px;
     color: #fff;
     background-color: #000;
     border: none;
@@ -61,13 +61,85 @@
     text-transform: uppercase;
 }
 .getstartedbtn{
-    width: 120px;
-    height: 50px;
+    padding: 15px 20px;
     font-size: 1rem;
     border: none;
     outline:none;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.hero-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero{
+    /* background-color: #fff; */
+    padding:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1:nth-child(1){
+    margin-top: 40px;
+}
+
+.hero h1{
+    color: #fff;
+    font-size: 8.5rem;
+    line-height: 130px;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 1;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.center span{
+    background-color: #7e3836;
+    font-size: 2rem;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0 40px;
+}
+
+.pic1{
+    position: absolute;
+    height: 200px;
+    left: 40px;
+    top: 200px;
+    border-radius: 10px;
+}
+.pic2{
+    position: absolute;
+    height: 200px;
+    left: 270px;
+    bottom: 130px;
+    border-radius: 10px;
+}
+.pic3{
+    position: absolute;
+    height: 200px;
+    right: 270px;
+    top: 110px;
+    border-radius: 10px;
+}
+.pic4{
+    position: absolute;
+    height: 250px;
+    right: 70px;
+    bottom: 110px;
+    border-radius: 10px;
 }
 
 
