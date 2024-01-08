@@ -16,7 +16,13 @@ tl.from('.hero h1',{
 
 tl.from('.hero img',{
     opacity:0,
-    scale:0
+    scale:1,
+    stagger:1
 })
 
+tl.from('h5',{
+    y:100,
+    duration:0.5,
+    opacity:0
+})
 
