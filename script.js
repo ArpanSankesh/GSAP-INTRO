@@ -34,12 +34,11 @@ tl.to('h5',{
 })
 tl.from('.sec-2 h3',{
     y:100,
-    opacity:0,
-    color:"#fff",
+    opacity:0.5,
     scrollTrigger:{
         trigger:'.sec-2 h3 ',
         scroller:'body',
-        markers:true,
+        // markers:true,
         scrub:2,
     }
 })
