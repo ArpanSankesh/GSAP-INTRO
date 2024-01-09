@@ -26,6 +26,7 @@ tl.from('h5',{
     duration:0.5,
     opacity:0
 })
+
 tl.to('h5',{
     y:20,
     duration:1,
@@ -43,3 +44,14 @@ tl.from('.sec-2 h3',{
     }
 })
 
+tl.from('.sec-3 img',{
+    x:-150,
+    // opacity:0,
+    stagger:0.09,
+    scrollTrigger:{
+        trigger:".sec-3 img",
+        scroller:"body",
+        // markers:true,
+        scrub:2
+    }
+})

@@ -172,3 +172,21 @@ padding: 100px;
     color: #000;
 }
 
+.sec-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    /* flex-wrap: wrap; */
+    /* flex-basis: 50%; */
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+}
+.sec-3 img{
+height: 250px;
+}
