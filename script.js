@@ -1,4 +1,5 @@
 const tl = gsap.timeline();
+
 tl.from(".logo, .nav-buttons button, .nav-items h3", {
   y: -100,
   duration: 0.5,
@@ -21,8 +22,25 @@ tl.from('.hero img',{
 })
 
 tl.from('h5',{
-    y:100,
+    y:150,
     duration:0.5,
     opacity:0
+})
+tl.to('h5',{
+    y:20,
+    duration:1,
+    yoyo:true,
+    repeat:-1
+})
+tl.from('.sec-2 h3',{
+    y:100,
+    opacity:0,
+    color:"#fff",
+    scrollTrigger:{
+        trigger:'.sec-2 h3 ',
+        scroller:'body',
+        markers:true,
+        scrub:2,
+    }
 })
 
